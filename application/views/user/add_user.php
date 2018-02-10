@@ -1,20 +1,20 @@
 <div class="row">
             <div class="col-8">
             <form action="/user/create" method="post">
-                    <div class="form-group">
-                        <label for="exampleInputEmail1">ชื่อ</label>
-                        <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="กรอกชื่อ สกุล">
-                    </div>
-                    <div class="form-group">
-                        <label for="exampleInputEmail1">อีเมล์</label>
-                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="กรอกอีเมล์">
-                    </div>
-                    <div class="form-group">
-                        <label for="exampleInputPassword1">อายุ</label>
-                        <input type="number" class="form-control" id="exampleInputPassword1" placeholder="กรอกอายุ">
-                    </div>
-                    <button type="submit" class="btn btn-primary">บันทึก</button>
-                </form>
+                   <div class="form-group">
+                       <label>ชื่อ</label>
+                       <input name="fullname" type="text" class="form-control" placeholder="กรอกชื่อ สกุล">
+                   </div>
+                   <div class="form-group">
+                       <label>อีเมล์</label>
+                       <input name="email" type="email" class="form-control" placeholder="กรอกอีเมล์">
+                   </div>
+                   <div class="form-group">
+                       <label>อายุ</label>
+                       <input name="age" type="number" class="form-control" placeholder="กรอกอายุ">
+                   </div>
+                   <button type="submit" class="btn btn-primary">บันทึก</button>
+           </form>
             </div>
             <div class="col-4">
                 <ul class="list-group">
